@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="249.95062mm"
+   height="251.56332mm"
+   viewBox="0 0 885.65179 891.36612"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4474"
+       x="-0.89372671"
+       width="2.7874534"
+       y="-0.92108572"
+       height="2.8421714">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="107.46"
+         id="feGaussianBlur4476" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4970"
+       x="-0.48934686"
+       width="1.9786937"
+       y="-0.4971143"
+       height="1.9942286">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="74.567144"
+         id="feGaussianBlur4972" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5192"
+       x="-0.64418644"
+       width="2.288373"
+       y="-0.59385937"
+       height="2.1877186">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="31.994057"
+         id="feGaussianBlur5194" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="517.27841"
+     inkscape:cy="67.884508"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     inkscape:window-width="1920"
+     inkscape:window-height="1056"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1107.1116,-50.964846)">
+    <ellipse
+       style="opacity:0.6520004;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4136"
+       cx="-664.28571"
+       cy="496.64792"
+       rx="407.14285"
+       ry="410" />
+    <ellipse
+       style="opacity:1;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4970)"
+       id="path4138"
+       cx="-782.85712"
+       cy="366.64795"
+       rx="182.85715"
+       ry="180"
+       transform="matrix(1.0199435,0,0,0.94089503,15.612948,35.956431)" />
+    <ellipse
+       style="opacity:0.6520004;fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter4474)"
+       id="path4142"
+       cx="-512.85712"
+       cy="680.93359"
+       rx="144.28572"
+       ry="140" />
+    <ellipse
+       style="opacity:1;fill:#55ddff;fill-opacity:1;stroke:#000000;stroke-width:0.49722737;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4974"
+       cx="-666.70062"
+       cy="498.75797"
+       rx="262.64102"
+       ry="270.72226" />
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5192)"
+       id="path4978"
+       cx="-754.58398"
+       cy="411.92551"
+       rx="59.598999"
+       ry="64.649765"
+       transform="matrix(1.7976142,0,0,1.6259257,619.03951,-243.69262)" />
+  </g>
+</svg>
