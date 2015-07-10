@@ -17,7 +17,12 @@ public:
     ~MainWindow();
 
 public slots:
-    void on_lineEdit_returnPressed();
+    void on_urlComboBox_activated(QString value);
+    void on_backPushButton_clicked();
+    void on_forwardPushButton_clicked();
+    void on_reloadPushButton_clicked();
+
+    void linkClicked(QUrl url);
 
 private:
     Ui::MainWindow *ui;

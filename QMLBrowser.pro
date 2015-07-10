@@ -1,4 +1,4 @@
-QT       += core gui quick quickwidgets
+QT       += core gui quick quickwidgets webkit webkitwidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 

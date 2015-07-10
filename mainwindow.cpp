@@ -3,19 +3,45 @@
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow)
-{
+    ui(new Ui::MainWindow) {
     ui->setupUi(this);
 
-    ui->quickWidget->setResizeMode(QQuickWidget::SizeRootObjectToView);
+    connect(ui->webView, SIGNAL(linkClicked(QUrl)), this, SLOT(linkClicked(QUrl)));
 }
 
-MainWindow::~MainWindow()
-{
+MainWindow::~MainWindow() {
     delete ui;
 }
 
+void MainWindow::on_urlComboBox_activated(QString value) {
+    if(!value.startsWith("http://") &&
+       !value.startsWith("https://") &&
+       !value.startsWith("file://")) {
+        value.prepend("http://");
+    }
 
-void MainWindow::on_lineEdit_returnPressed() {
-    ui->quickWidget->setSource(QUrl(ui->lineEdit->text()));
+    linkClicked(QUrl(value));
+}
+
+void MainWindow::on_backPushButton_clicked() {
+    ui->webView->back();
+}
+
+void MainWindow::on_forwardPushButton_clicked() {
+    ui->webView->forward();
+}
+
+void MainWindow::on_reloadPushButton_clicked() {
+    ui->webView->reload();
+}
+
+void MainWindow::linkClicked(QUrl url) {
+    if(url.toString().endsWith(".qml")) {
+        ui->stackedWidget->setCurrentWidget(ui->qmlPage);
+        ui->quickWidget->setSource(url);
+    } else {
+        ui->stackedWidget->setCurrentWidget(ui->webPage);
+        ui->webView->load(url);
+    }
+    ui->urlComboBox->setCurrentText(url.toString());
 }
