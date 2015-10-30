@@ -1,8 +1,8 @@
-QT       += core gui quick quickwidgets webkit webkitwidgets
+QT += core gui quick quickwidgets webkit webkitwidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QMLBrowser
+TARGET = methane-browser
 TEMPLATE = app
 
 
@@ -15,3 +15,5 @@ FORMS    += mainwindow.ui
 
 RESOURCES += \
     resources.qrc
+
+include(../pods.pri)

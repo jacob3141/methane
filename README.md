@@ -1,4 +1,2 @@
-# qmlbrowser
-The world's first browser dedicated to loading qml websites.
-
-![Demo Screenshot](https://github.com/cybercatalyst/qmlbrowser/blob/master/screenshot.png "Demo screenshot")
+# Methane
+The world's first browser dedicated to loading websites written in QML!
